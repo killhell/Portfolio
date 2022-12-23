@@ -1,0 +1,53 @@
+body{
+    font-family: Helvetica, sans-serif;
+}
+
+img{
+    width: 100%;
+    height: 100%;
+}
+
+.bg-black{
+    color: white;
+    background: black;
+    font-weight: bold;
+}
+
+#main-header .port-item{
+    width: 30%;
+    cursor: pointer;
+    transition-duration:0.3s ;
+}
+
+#main-header .port-item:hover {
+    opacity: 0.8;
+    width: 33%;
+}
+
+@media(min-width:1199px) {
+    .port-item{
+        padding: 4.2em !important;
+    }
+}
+
+.po-100{
+    width: 100%;
+}
+.po-85{
+    width: 85%;
+}
+.po-70{
+    width: 70%;
+}
+.po-50{
+    width: 50%;
+}
+
+.card-tittle{
+    font-weight: bold;
+}
+
+.text-black{
+    color: black;
+}
+
